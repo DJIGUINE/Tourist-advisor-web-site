@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:bookingcar_id;datatype:int,name:car_idfk;datatype:int,name:customernamefk;datatype:string,name:bookFROM;datatype:date,name:to_;datatype:date,name:number_Day;datatype:int,name:adress email;datatype:string" />
+</info>

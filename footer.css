@@ -1,0 +1,22 @@
+@charset "utf-8";
+#footer {
+	background-color:#f8f8f8;
+	color:#black;
+	margin-left:0;
+	padding-left:5 px;	
+}
+#footer table tr td p {
+	color: #FFF;
+}
+#body{
+	background-color: #f8f8f8;
+	color: #000000;
+	
+}
+#h1{
+	color:#F00;
+}
+
+#body2{
+color:#F00;
+}

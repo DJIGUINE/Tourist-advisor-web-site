@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_carupdate" value="name:bookingcar_id;datatype:int,name:car_idfk;datatype:int,name:customernamefk;datatype:string,name:bookFROM;datatype:date,name:to_;datatype:date,name:number_Day;datatype:int,name:adressemail;datatype:string" />
+	<infoitem key="UD_Recordup" value="name:purchase_id;datatype:int,name:product_idfk;datatype:int,name:customernameidfk;datatype:string,name:Quantity;datatype:int,name:purchasedate;datatype:date,name:adress_email;datatype:string" />
+</info>

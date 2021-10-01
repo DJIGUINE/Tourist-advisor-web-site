@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<title>Fahrenheit to Celcius Temperature Converter</title>
+<body>
+
+<h2>Temperature Converter</h2>
+<p>Type a value in the Fahrenheit field to convert the value to Celsius:</p>
+
+<p>
+  <label>Fahrenheit</label>
+  <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+</p>
+<p>Celcius: <span id="outputCelcius"></span></p>
+
+<script>
+function temperatureConverter(valNum) {
+  valNum = parseFloat(valNum);
+  document.getElementById("outputCelcius").innerHTML=(valNum-32)/1.8;
+  <?php echo $editFormAction; ?>
+  
+  if(empty($_POST['price'])||empty($POST['numroom']) || empty($_post['numday']))
+{
+	echo '<p>please enter informations</p>' ;
+	
+}else
+{
+	if (!is_numeric($post['price'])|| !is_numeric($post['numroom'])||!is_numeric($post['numday']))
+	{
+		echo' <p>please enter informations</p>';
+		} 
+else{
+}
+</script>
+
+</body>
+</html>
